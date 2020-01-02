@@ -144,7 +144,7 @@ echo "*/1 * * * * php /www/wwwroot/$website/xcat checkjob" >> /var/spool/cron/ro
 echo "*/1 * * * * php /www/wwwroot/$website/xcat syncnode" >> /var/spool/cron/root
 echo "*/1 * * * * php /www/wwwroot/$website/xcat detectGFW" >> /var/spool/cron/root
 echo "5 0 * * * php /www/wwwroot/$website/xcat sendFinanceMail_day" >> /var/spool/cron/root
-chkconfig –level 35 crond on
+chkconfig --level 35 crond on
 /sbin/service crond restart
 echo -e "${Info} 添加定时任务已完成"
 sleep 1
