@@ -3,18 +3,16 @@
 .htaccess
 */.DS_Store
 .DS_Store
-composer.lock
 .php_cs.cache
 .env
 vendor
 
 php_errors.log
-composer.phar
+
 
 404.html
 index.html
 
-config/.config.php
 config/.config.php.bak
 
 public/ssr-download/
